@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = clildren
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, #D9CB9E, #1E1E20);
+        }
+
+        a{
+            color: #DC3522;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: #2A2C2B;
+        }
+        
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: #DC3522;
+        }
+
+        a::before{
+            content:'▶ ';
+        }
+
+        a::after{
+            content:' ◀';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Kaique-Parra" target="_blank" rel="external">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/kaiqueparra/" target="_blank" rel="external">Linkedin</a></li>
+    </ul>
+</body>
+</html>

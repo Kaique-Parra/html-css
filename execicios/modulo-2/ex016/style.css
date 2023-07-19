@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body{
+    background-image: linear-gradient(to right, #D9CB9E, #1E1E20);
+
+}
+
+main{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.534);
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+}
+
+h1{
+    color: #DC3522;
+    text-align: center;
+    text-shadow: 2px 2px 3px #751c128f;
+}
+
+h2{
+    color: #2A2C2B;
+}
+
+p{
+    text-align: justify;
+}
+.Sea-Wolf-1-hex { color: #DC3522; }
+.Sea-Wolf-2-hex { color: #D9CB9E; }
+.Sea-Wolf-3-hex { color: #374140; }
+.Sea-Wolf-4-hex { color: #2A2C2B; }
+.Sea-Wolf-5-hex { color: #1E1E20; }
