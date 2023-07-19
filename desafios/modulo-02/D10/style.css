@@ -1,8 +1,8 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
 @font-face {
     font-family: 'idroid';
-    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+    src: url('fontes/idroid.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -128,9 +128,11 @@ span > a::after{
 
 .imgpq{
     max-width: 250px;
+    margin: auto;
+    display: block;
 }
 
-img{
+main img{
     width: 100%;
 }
 
