@@ -7,16 +7,26 @@
 
         body{
             height: 100vh;
-            background-color: black;
+        /*  background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+
+            /*
+                Shorthand - Background
+                color > image > position > repet > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
+            min-width: 320px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkred;
@@ -29,7 +39,7 @@
         }
 
     </style>
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
 </head>
 <body>
     <main>
