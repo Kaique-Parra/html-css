@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
 
@@ -14,7 +14,8 @@
 
 }
 
-body{
+html, body{
+    min-height: 100vh;
     background-color: darkgray;
     font-family: var(--fonte-padrao);
 }
@@ -48,9 +49,13 @@ main p{
 
 }
 
-#p{
+section{
+    padding-left: 30px;
     background-color: white;
-    padding-left: 55px;
+}
+
+#p{
+
     padding-top: 70px;
     padding-bottom: 70px;
     padding-right: 400px;
