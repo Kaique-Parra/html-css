@@ -26,6 +26,7 @@
             margin: auto;
             margin-top: 30px;
             margin-bottom: 30px;
+            position: relative;
         }
 
         caption{
@@ -54,6 +55,12 @@
         thead, tfoot{
             background-color: dimgray;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: dimgray;
         }
 
         tbody > tr:nth-child(even){ /* 2en 2en-1 even odd */
