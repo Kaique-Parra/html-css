@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body{
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            background-color: darkgray;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        td:hover{
+            background-color: black;
+            color: white;
+            transition-duration: 0.3s;
+        }
+
+        .destaque{
+            background-color: rgb(99, 98, 98);
+        }
+
+        .cnome{
+            background-color: rgb(99, 98, 98);
+        }
+
+        .csexo{
+            background-color: pink;
+        }
+    </style>
+    <title>Exercício de Tabelas</title>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Luana Jonas</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Técnico de Processos</td>
+        </tr>
+
+        <tr>
+            <td>Kaique Parra</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Auxíliar de Linha de Produção</td>
+        </tr>
+    </table>
+</body>
+</html>
