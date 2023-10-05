@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframe</title>
+    <style>
+
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            h1{
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            p{
+                text-align: justify;
+            }
+
+            a{
+                text-decoration: none;
+                font-family: 'Times New Roman', Times, serif;
+                color: black;
+            }
+
+            a:hover{
+                text-decoration: underline;
+                color: darkgray;
+                padding: 5px;
+            }
+
+            iframe#tela{
+                width: 95vw;
+                height: 400px;
+                border: 2px solid black;
+            }
+
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex neque tempora impedit! Eaque, doloribus quae ut atque error laudantium qui mollitia. Vero fugit dolore id quibusdam necessitatibus eaque illum hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consequatur sint fugit ipsum enim tempora, ipsam blanditiis repellat. Molestiae corporis illo at! Labore officiis rerum repellat esse facilis? Animi, ipsa!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic accusamus modi illum, dicta odit, deserunt praesentium assumenda dolor dolores, delectus qui sed odio quos quaerat laborum laudantium quo fuga doloremque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusamus exercitationem officiis, obcaecati deserunt qui eum ex quae unde magnam illo in numquam minima iure animi voluptatem impedit id et! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi omnis aut numquam cupiditate in, fugit exercitationem voluptatem itaque error cum saepe voluptates expedita molestias eius ea veniam. Sed, pariatur accusamus.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1> Escolha umas das opções acima.</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ab quisquam inventore possimus eaque facilis vero culpa veniam sit tempore natus, reprehenderit, eos, mollitia similique! Quos blanditiis enim vitae incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorem odit expedita explicabo officia quae delectus, natus deserunt modi tempora doloremque tenetur eum beatae, vitae architecto id deleniti omnis atque.</p>" frameborder="#">
+        <p>Seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ab quisquam inventore possimus eaque facilis vero culpa veniam sit tempore natus, reprehenderit, eos, mollitia similique! Quos blanditiis enim vitae incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorem odit expedita explicabo officia quae delectus, natus deserunt modi tempora doloremque tenetur eum beatae, vitae architecto id deleniti omnis atque.</p>
+</body>
+</html>
