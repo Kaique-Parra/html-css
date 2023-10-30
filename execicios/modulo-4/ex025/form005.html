@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Checkbox e Radio button em HTML</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="ismas" value="M">
+            <label for="ismas">Masculico</label> <br>
+
+            <input type="radio" name="sexo" id="isfem" value="F">
+            <label for="isfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Jogos Favoritos</legend>
+            <input type="checkbox" name="mine" id="imine"> 
+            <label for="imine">Minecraft</label> <br>
+
+            <input type="checkbox" name="leag" id="ileag"> 
+            <label for="ileag">League of Legends</label> <br>
+
+            <input type="checkbox" name="valo" id="ivalo"> 
+            <label for="ivalo">Valorant</label> <br>
+
+            <input type="checkbox" name="sky" id="isky"> 
+            <label for="isky">Skyrim</label> <br>
+
+            <input type="checkbox" name="dark" id="idark"> 
+            <label for="idark">Dark Souls</label> <br>
+
+            <input type="checkbox" name="elden" id="ielden"> 
+            <label for="ielden">Elden Ring</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
