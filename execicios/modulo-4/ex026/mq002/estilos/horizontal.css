@@ -2,3 +2,7 @@
 
 /*Aparelho Horizontal (landscape)*/
 
+body{
+    background: url(../img/cev-landscape.jpg);
+    background-position: left bottom;
+}
